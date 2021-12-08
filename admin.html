@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>SLESAM - Admin</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta content="" name="keywords" />
+		<meta content="" name="author" />
+		<link rel="icon" type="text/css" href="./assets/img/SLESAM-logo.png" />
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+
+		<!-- CSS Files
+    ================================================== -->
+		<link href="css/jpreloader.css" rel="stylesheet" type="text/css" />
+		<link
+			id="bootstrap"
+			href="css/bootstrap.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			id="bootstrap-grid"
+			href="css/bootstrap-grid.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			id="bootstrap-reboot"
+			href="css/bootstrap-reboot.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="css/animate.css" rel="stylesheet" type="text/css" />
+		<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+		<link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+		<link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+		<link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+		<!-- <link rel="stylesheet" href="more.css" /> -->
+		<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+		<!-- color scheme -->
+		<link
+			id="colors"
+			href="css/colors/scheme-01.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="css/coloring.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<!-- slick carousel css -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+		<script
+			src="https://kit.fontawesome.com/fc494360f4.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="admin.css" />
+		<style type="text/css">
+			.koo {
+				height: 20px;
+				width: 20px;
+
+				background: green;
+			}
+
+			.col {
+				color: blue;
+			}
+
+			.cal {
+				font-size: 16px;
+			}
+		</style>
+		<link rel="stylesheet" href="header.css">
+		<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+		<script defer src="mobileHeader.js"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<!-- header begin -->
+				<nav id="navbar">
+			<div class="nav-header">
+				<i class="bx bx-menu bx-lg" ></i>
+				<div class="logo"><a href="index.html"><img src="./assets/img/SLESAM-logo.png" alt=""></a></div>
+				<div class="menu-links">
+					<div class="sidebar-logo">
+						<a class="logo-name" href="index.html">
+							<img src="./assets/img/SLESAM-logo.png" alt="">
+						</a>
+						<i class="bx bx-x"></i>
+					</div>
+					<ul class="links">
+						<li><a href="index.html">HOME</a></li>
+						<li>
+							<a href="#">ABOUT</a>
+							<i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+							<ul class="htmlCss-sub-menu sub-menu">
+								<li><a href="index.html#description">Description & Mission</a></li>
+												<li><a href="admin.html">SLESAM admin</a></li>
+												<li><a href="index.html#section-fun-facts">Partners and sponsors</a></li>
+												 
+							</ul>
+						</li>
+						<li>
+							<a href="#">EXPLORE</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href=" #sl">About Sierra Leone</a></li>
+												<li><a href="about_morocco.html">About Morocco</a></li>
+												<li>
+													<a href="fsimaroc.html">Foreign student in Morocco</a>
+												</li>
+												<li><a href="sejour.html">Carte de Séjour</a></li>
+												<li><a href="passport.html">Passport renewal</a></li>
+												 
+												<li>
+													<a href="oim.html">Opportunities in Morocco</a>
+												</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">STUDYING IN MOROCCO</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								 
+												<li>
+													<a href="higheredu.html">Higher education in morocco</a>
+												</li>
+												 
+							</ul>
+						</li>
+							<!--   -->
+						<li>
+							<a href="#">MORE</a>
+							<i class="bx bxs-chevron-down js-arrow arrow"></i>
+							<ul class="js-sub-menu sub-menu">
+								<li><a href="axa.html">AXA Insurance</a></li>
+												 <li>
+													<a href="amci.html">AMCI</a>
+												</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="h-phone">
+					<span>Need&nbsp;Help?</span>
+					<!-- <i class="text-blue bx bxs-phone bx-lg " style="font-size: 4rem !important;"></i> -->
+										
+					<i class="fas fa-phone id-color-secondary"></i> +212 619-233483
+				</div>
+			</div>
+		</nav>
+			<!-- header close -->
+
+			<!-- Hero Section  -->
+			<section id="hero">
+				<div class="hero innerpage__showcase">
+					<div>
+						<h1 class="showcase__title">
+							<span class="text-uppercase text-blue">SLESAM</span>
+							Administration
+						</h1>
+					</div>
+				</div>
+			</section>
+			<!-- End Hero Section  -->
+			<!-- * TABS -->
+
+			<div class="SLESAM-admins mb-5">
+				<div class="container">
+					<div class="d-flex flex-column align-items-center">
+						<!-- <div
+							class="
+								nav nav-pills
+								me-3
+								mb-4
+								bg-success
+								p-3
+								rounded-pill
+								justify-content-center
+							"
+							id="v-pills-tab"
+							role="tablist"
+							aria-orientation="vertical"
+						>
+							<button
+								class="nav-link active"
+								id="v-pills-home-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-home"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-home"
+								aria-selected="true"
+							>
+								SLESAM NEC
+							</button>
+							<button
+								class="nav-link"
+								id="v-pills-profile-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-profile"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-profile"
+								aria-selected="false"
+							>
+								SLESAM NSC
+							</button>
+							<button
+								class="nav-link"
+								id="v-pills-messages-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-messages"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-messages"
+								aria-selected="false"
+							>
+								OTHER COMMITTEES
+							</button>
+							<button
+								class="nav-link"
+								id="v-pills-settings-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#v-pills-settings"
+								type="button"
+								role="tab"
+								aria-controls="v-pills-settings"
+								aria-selected="false"
+							>
+								PAST EXECUTIVES
+							</button>
+						</div> -->
+						<div class="tab-content" id="v-pills-tabContent">
+							<div
+								class="tab-pane fade show active"
+								id="v-pills-home"
+								role="tabpanel"
+								aria-labelledby="v-pills-home-tab"
+							>
+								<h1 class="h1 text-center mb-5">
+									SLESAM NATIONAL EXECUTIVE COMMITTEE
+								</h1>
+								<div class="grid">
+									<!-- *1 -->
+									<div class="d-flex">
+										<div class="profile__info w-100">
+											<h1>JEREMIAH ABDUL AKIM JALLOH</h1>
+											<h2 style="color: blue">President</h2>
+											<p>
+												Medical student at the Faculty of medicine and pharmacy Rabat<br />
+											 <!-- <br/> -->
+											President of SLESAM (2021-2022)<br />
+											Contact: +212 619 233483
+											<br />
+											<span
+												>E-mail:
+												<span style="color: blue"
+													>slesampresident@gmail.com</span
+													>
+												</span>
+											</p>
+										</div>
+										<div class="profile__img w-100">
+											<img src="./leaders/jeremiah.png" alt="img" class="h-100" />
+										</div>
+									</div>
+									<!-- *2 -->
+									<div class="d-flex">
+										<div class="profile__info w-100">
+											<h1>MARIAMA BUANIE</h1>
+											<h2 style="color: blue">Vice President</h2>
+											<p>
+												Economics student at the faculty of economics and 
+											management at Ibn Tofail University, kenitra<br />
+											
+											Vice President of SLESAM (2021-2022)<br />
+											Contact: +212 12345678
+											<br />
+											<span
+												>E-mail:
+												<span style="color: blue"
+													>buaniemariama3@gmail.com</span
+												>
+											</span>
+											</p>
+										</div>
+										<div class="profile__img w-100">
+											<img src="./leaders/mariama.png" alt="img" class="h-100" />
+										</div>
+									</div>
+									<!-- *3 -->
+									<div class="d-flex">
+										<div class="profile__info">
+											<h1>SANUSIE JANNEH</h1>
+											<h2 style="color: blue">General Secretary</h2>
+											<p>
+											Life sciences student at the Faculty of Sciences,
+											Dhar Mehrez, Fes<br />
+											
+											Secretary General of SLESAM (2021-2022)<br />
+											Contact: +212 600 312596
+											<br />
+											<span
+												>E-mail:
+												<span style="color: blue">slesam001.ma@gmail.com</span>
+											</span>
+											</p>
+										</div>
+										<div class="profile__img">
+											<img src="./leaders/sanusie.png" alt="img" class="h-100" />
+										</div>
+									</div>
+									<!-- *4 -->
+									<div class="d-flex">
+										<div class="profile__info">
+											<h1>CRIMILDA MCEWEN</h1>
+											<h2 style="color: blue">Public Relations Officer</h2>
+											<p>
+												Medical Student at FMPDF, Fes<br />
+											
+											 Public Relations Officer of SLESAM (2021-2022)<br />
+											 Contact +212679967159
+											<br />
+											<span
+												>E-mail:
+												<span style="color: blue"
+													>proslesammaroc@gmail.com </span
+												>
+												</span>
+											</p>
+										</div>
+										<div class="profile__img">
+											<img src="./leaders/crimilda.png" alt="img" class="h-100" />
+										</div>
+									</div>
+									<!-- *5 -->
+									<div class="d-flex">
+										<div class="profile__info">
+											<h1>ISATA IMRAN KAMARA</h1>
+											<h2 style="color: blue">
+												Social Secretary
+											</h2>
+
+											<p>
+												Medical student at the Faculty of Medicine, 
+											Pharmacy & Dentistry Fes<br />
+										
+											 Social Secretary of SLESAM (2021-2022)<br />
+											Contact: +212 606 482113
+											<br />
+											<span
+												>E-mail:
+												<span style="color: blue"
+													>SocialSecretaryslesam@gmail.com</span
+												>
+												</span>
+											</p>
+										</div>
+										<div class="profile__img">
+											<img src="./leaders/isata.png" alt="img" class="h-100" />
+										</div>
+									</div>
+
+									<!-- *6 -->
+									<div class="d-flex">
+										<div class="profile__info">
+											<h1>RAMATULAI VANDY</h1>
+											<h2 style="color: blue">
+												Financial Secretary and Treasurer
+											</h2>
+
+											<p>
+												Studying Science Mathématiques et Informatiques at the Faculté des sciences
+												Université Ibn Tofail <br />
+												 <br />
+												 Financial Secretary and Treasurer of SLESAM (2021-2022)<br />
+												Contact: +212 679992655
+												<br />
+												<span
+													>E-mail:
+													<span style="color: blue"
+														>slesamtreasurer@gmail.com</span
+													>
+												</span>
+											</p>
+										</div>
+										<div class="profile__img">
+											<img src="./leaders/ramatulai.png" alt="img" class="h-100" />
+										</div>
+									</div>
+								</div>
+							</div>
+							
+					</div>
+
+					<!-- * END OF CONTENT -->
+				</div>
+			</div>
+		</div>
+		<!-- footer begin -->
+		<footer class="bg-darker">
+				<div class="container">
+					<div class="row gap-sm">
+						<div class="col-lg-3">
+							<div class="widget">
+								<h5>Quick Link</h5>
+								<ul>
+									<li><a href="admin.html">SLESAM Admin</a></li>
+									<li><a href="amci.html">AMCI</a></li>
+									<li><a href="higheredu.html">Studying In Morocco</a></li>
+									<li><a href="fsimaroc.html">Foreign Student In Morocco</li>
+									<li><a href="axa.html">AXA Insurance</a></li>
+									<li><a href="e-care.html">SLESAM E-Care</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-lg-3">
+							<div class="widget">
+								<h5>Social Media</h5>
+								<p class="fs-6">
+									Connect with us on our social media platforms
+								</p>
+								<ul class="list-unstyled d-flex align-items-center">
+									<li class="mr-3">
+										<a href="https://www.facebook.com/SLESAMofficial" class="text-blue" target="_blank">
+											<i class="fab fa-facebook fa-2x"></i>
+										</a>
+									</li>
+
+									<li>
+										<a href="https://www.instagram.com/SLESAM_national/" target="_blank" class="text-blue">
+											<i class="fab fa-instagram fa-2x"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-5">
+							<h5>Locate Us</h5>
+							<div class="">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.338903685756!2d-6.842452085741224!3d33.95812773013317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda713f58a80a9b1%3A0xeadbb68a4403c3a7!2sEmbassy%20of%20the%20Republic%20of%20Sierra%20Leone!5e0!3m2!1sen!2ssl!4v1638936031291!5m2!1sen!2ssl"
+									width="100%"
+									height="200px"
+									style="border: 0"
+									allowfullscreen=""
+									loading="lazy"
+								></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bg-gradient-darker mt-5">
+					<p class="text-center text-white p-3 mb-0">Copyright &copy; SLESAM, All right reserved - <span class="year"></span></p>
+				</div>
+			</footer>
+		<!-- footer close -->
+
+		<!-- <a href="#" id="back-to-top"></a> -->
+		<!-- Javascript Files
+    ================================================== -->
+		<script src="js/jquery.min.js"></script>
+		<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+		<script src="js/jpreLoader.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.isotope.min.js"></script>
+		<script src="js/easing.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/validation.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/enquire.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/jquery.plugin.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="js/jquery.countTo.js"></script>
+		<script src="js/jquery.countdown.js"></script>
+		<script src="js/designesia.js"></script>
+		<!-- <script src="./app.js"></script> -->
+
+		<!-- slick JS -->
+		<script
+			type="text/javascript"
+			src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+			integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+			integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+			integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+			crossorigin="anonymous"
+		></script>
+		<script src="./assets/js/fslightbox.js"></script>
+		<script src="./js/expandingCard.js"></script>
+		<script>
+			[].forEach.call(
+				document.getElementsByClassName("iframe-lightbox-link"),
+				function (el) {
+					el.lightbox = new IframeLightbox(el);
+				}
+			);
+
+			$(document).ready(function () {
+				$(".profile-slick").slick({
+					autoplay: true,
+					autoplaySpeed: 3000,
+					arrows: true,
+					dots: false,
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					prevArrow: "<i class='fas fa-arrow-left bg-blue p-2'></>",
+					nextArrow: "<i class='fas fa-arrow-right bg-success p-2'></>",
+				});
+			});
+		</script>
+		<script>
+			// const menu = document.getElementById("lines");
+			// const tabLinks = document.querySelector(".nav-pills");
+			// const links = tabLinks.querySelectorAll(".nav-link");
+
+			// menu.addEventListener("click", () => {
+			// 	menu.classList.toggle("open");
+			// 	tabLinks.classList.toggle("active");
+			// });
+
+			// links.forEach((link) => {
+			// 	link.addEventListener("click", () => {
+			// 		tabLinks.classList.remove("active");
+			// 		menu.classList.remove("open");
+			// 	});
+			// });
+
+			// window.addEventListener('resize',()=>{
+			//   console.log(window.innerWidth)
+			//   if(window.innerWidth<=600){
+			//     document.querySelector('.gallery').classList.remove('Sierra Leone__gallery')
+			//   }
+			// })
+			document.querySelector('.year').textContent = new Date().getFullYear()
+
+		</script>
+	</body>
+</html>
